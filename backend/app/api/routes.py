@@ -11,3 +11,4 @@ def health():
 @router.post("/predict")
 def predict(student: StudentInput):
     return predict_performance(student)
+# ....

@@ -5,3 +5,4 @@ class StudentInput(BaseModel):
     study_hours: int
     assignment_score: int
     quiz_score: int
+    # ....
